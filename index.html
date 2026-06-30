@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#0A192F" />
-
+  <link rel="preload" as="image" href="hero.webp">
   <title>Airway Restaurant | Saibala Grand Hotel, Pallavaram</title>
   <meta name="description" content="Premium luxury dining and elite banquet experiences at Airway Restaurant, Saibala Grand Hotel, Pallavaram. Weddings, corporate events, and private parties." />
 
@@ -66,13 +66,13 @@
     <!-- Section 1: Hero Experience -->
     <section class="hero" aria-label="Hero">
       <div class="hero__media" aria-hidden="true">
-        <img
-          src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=2200&q=80"
-          alt=""
-          loading="eager"
-          decoding="async"
-          class="hero__img"
-        />
+       <img
+  src="hero.webp"
+  alt="Airway Restaurant Dining Hall"
+  class="hero__img"
+  loading="eager"
+  fetchpriority="high"
+  decoding="async">
         <div class="hero__overlay" aria-hidden="true"></div>
       </div>
 
